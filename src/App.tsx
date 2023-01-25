@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import TicTacToeGame from 'TicTacToe/TicTacToe';
+import TicTacToeGame from 'components/TicTacToe/TicTacToe';
+import Home from 'components/Home/Home';
 
 export default function App() {
 	return (
 		<div className="App">
-			<TicTacToeGame />
+			<Home />
 		</div>
 	);
 }

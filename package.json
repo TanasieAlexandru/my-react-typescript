@@ -19,6 +19,7 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
+		"deploy": "npm run build && copy build\\index.html build\\200.html && surge build https://my-react-app-tva.surge.sh",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
@@ -42,5 +43,5 @@
 			"last 1 safari version"
 		]
 	},
-	"homepage": "https://tanasiealexandru.github.io/my-react-typescript"
+	"homepage": "."
 }
