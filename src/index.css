@@ -8,6 +8,15 @@ body {
 	background-color: #282c34;
 }
 
+ul {
+	text-align: start;
+}
+
+li a:-webkit-any-link {
+	color: #45dc90;
+	text-align: start;
+}
+
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
